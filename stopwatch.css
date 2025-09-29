@@ -1,0 +1,51 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: brown;
+}
+#myH1{
+    align-items: center;
+    font-size: 3em;
+    font-family: 'Times New Roman', Times, serif;
+    color: wheat;   
+}
+#container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    border: 5px solid;
+    border-radius: 20px;
+    background-color: wheat;
+
+}
+#display{
+    font-family: monospace;
+    font-size: 5em;
+    font-weight: bold;
+    color: hsla(0, 84%, 45%, 0.912);
+
+}
+#buttons button{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2em;
+    padding: 5px 10px;
+    margin: 10px;
+    font-weight: bold;
+    color: wheat;
+    background-color:hsla(0, 79%, 27%, 0.82);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#startBtn:hover{
+    background-color: hsl(0, 15%, 51%);
+}
+#stopBtn:hover{
+    background-color: hsl(0, 15%, 51%);
+}
+#resetBtn:hover{
+    background-color: hsl(0, 15%, 51%);
+    
+}
